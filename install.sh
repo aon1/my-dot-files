@@ -24,7 +24,6 @@ PKGS_LIST="build-essential \
             unzip \
             clang \
             nodejs \
-            nodejs-legacy \
             npm \
             cmake \
             python-dev \
@@ -60,7 +59,7 @@ fi
 # Steps to install NeoVIM
 echo ""
 echo "### Preparations for installing 'neovim'"
-sudo add-apt-repository ppa:neovim-ppa/unstable -y
+#sudo add-apt-repository ppa:neovim-ppa/unstable -y
 
 # Install Debian/Ubuntu packages
 echo ""
